@@ -1,0 +1,61 @@
+name: Generate Snake Animation
+
+on:
+  # Run automatically every 12 hours
+  schedule:
+    - cron: "0 */12 * * *"
+  
+  # Allow manual runs from the Actions tab
+  workflow_dispatch:
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    steps:
+      # Step 1: Generate the snake animation files
+      - name: Generate Snake
+        uses: Platane/snk@v3
+        with:
+          # Your GitHub username
+          github_user_name: Caiffeine
+          
+          # A list of files to generate with custom colors
+          outputs: |
+            # Light mode blue theme
+            # color_snake = snake color
+            # color_dots = 5 contribution colors (0, low, med, high, max)
+            dist/github-snake.svg?color_snake=#007BFF&color_dots=#EBEDF0,#BDE0FF,#7CC0FF,#3AA0FF,#007BFF
+            
+            # Dark mode blue theme
+            dist/github-snake-dark.svg?palette=github-dark&color_snake=white&color_dots=#2D333B,#58A6FF,#3088FF,#1F6FEB,#0D44A8
+      
+      # Step 2: Upload the generated 'dist' folder as an artifact
+      - name: Upload artifact
+        uses: actions/upload-artifact@v3
+        with:
+          name: dist
+          path: dist
+
+  push:
+    # This job waits for the 'generate' job to finish
+    needs: generate
+    runs-on: ubuntu-latest
+    steps:
+      # Step 3: Download the 'dist' artifact from the previous job
+      - name: Download artifact
+        uses: actions/download-artifact@v3
+        with:
+          name: dist
+          path: dist
+
+      # Step 4: Push the contents of 'dist' to the 'output' branch
+      - name: Push to 'output' branch
+        uses: crazy-max/ghaction-github-pages@v3
+        with:
+          # The branch to push the files to
+          target_branch: output
+          # The directory to push
+          build_dir: dist
+        env:
+          # A token is required to push to the branch
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
