@@ -1,5 +1,5 @@
 ## About Me
-I'm Cairos Magno. A Front-end developer, UI/UX designer, and web & mobile app builder who loves turning ideas into interactive experiences
+I'm Cairos Magno. A Front-end developer, UI/UX designer, and web & mobile app builder who loves turning ideas into interactive experiences.
 
 
 ## Socials
