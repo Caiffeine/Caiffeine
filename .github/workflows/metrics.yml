@@ -1,0 +1,52 @@
+name: GitHub Metrics
+
+on:
+  # Schedule daily update
+  schedule: [{cron: "0 0 * * *"}]
+  # Allow manual workflow run
+  workflow_dispatch:
+
+jobs:
+  github-metrics:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: lowlighter/metrics@latest
+        with:
+          # Your GitHub token
+          token: ${{ secrets.METRICS_TOKEN }} 
+          
+          # Your GitHub username
+          user: Caiffeine
+
+          # Options for the overall design and what to include
+          template: classic
+          base: header, activity, community, repositories, metadata
+          config_timezone: Asia/Manila # Adjust to your timezone
+          
+          # ------------------------------------------------------------------
+          # FIXED LINE 29:
+          # Corrected YAML syntax for the JSON string
+          # ------------------------------------------------------------------
+          base_colors: >
+            {"base": "#000000", "text": "#ffffff", "highlight": "#007BFF", "border": "#333333"}
+          
+          # Plugins for specific data
+          plugin_languages: yes
+          plugin_languages_threshold: 0%
+          plugin_languages_ignored: javascript, html, css
+          plugin_languages_recent_days: 14
+          plugin_languages_recent_load: 300
+          plugin_languages_sections: most-used, recently-used
+          
+          plugin_isocalendar: yes
+          plugin_isocalendar_duration: full-year
+          
+          plugin_activity: yes
+          plugin_activity_limit: 5
+          plugin_activity_days: 14
+          plugin_activity_filter: all
+          plugin_activity_timestamps: yes
+
+          # Output filename
+          output_dir: output 
+          filename: impressive-stats.svg
