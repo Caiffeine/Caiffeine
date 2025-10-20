@@ -23,7 +23,7 @@ jobs:
           # Options for the overall design and what to include
           template: classic
           base: header, activity, community, repositories, metadata
-          config_timezone: America/New_York # Adjust to your timezone (e.g., Europe/London, Asia/Tokyo)
+          config_timezone: Asia/Manila # Adjust to your timezone (e.g., Europe/London, Asia/Tokyo)
           
           # Customization: Colors to match your blue/dark theme
           base_colors: "{\\"base\\": \\"000000\\", \\"text\\": \\"ffffff\\", \\"highlight\\": \\"007BFF\\", \\"border\\": \\"333333\\"}"
