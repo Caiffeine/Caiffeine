@@ -16,6 +16,7 @@
     <img alt="Angular.js" src="https://img.shields.io/badge/angular.js-%23E23237.svg?style=plastic&logo=angularjs&logoColor=white" />
     <img alt="Laravel" src="https://img.shields.io/badge/laravel-%23FF2D20.svg?style=plastic&logo=laravel&logoColor=white" />
     <img alt="NodeJS" src="https://img.shields.io/badge/node.js-6DA55F?style=plastic&logo=node.js&logoColor=white" />
+    <img alt="Express.js" src="https://img.shields.io/badge/express.js-%23000000.svg?style=plastic&logo=express&logoColor=white" />
     <img alt="NPM" src="https://img.shields.io/badge/NPM-%23CB3837.svg?style=plastic&logo=npm&logoColor=white" />
     <img alt="React" src="https://img.shields.io/badge/react-%2320232a.svg?style=plastic&logo=react&logoColor=%2361DAFB" />
     <img alt="React Native" src="https://img.shields.io/badge/react_native-%2320232a.svg?style=plastic&logo=react&logoColor=%2361DAFB" />
