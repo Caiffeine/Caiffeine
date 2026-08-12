@@ -1,5 +1,5 @@
 <div align="center">
-  <img width="1584" height="396" alt="Image" src="https://github.com/user-attachments/assets/f2f9a6b8-597c-40d2-9a1a-6fa5dabf0550" />
+  <img width="1584" height="396" alt="Header Banner" src="https://github.com/user-attachments/assets/f2f9a6b8-597c-40d2-9a1a-6fa5dabf0550" />
 </div>
 
 <div align="center">
@@ -44,33 +44,25 @@
     <img alt="github-snake" src="https://raw.githubusercontent.com/Caiffeine/Caiffeine/output/github-snake.svg" />
   </picture>
 
-  <br> <img src="https://readme-typing-svg.demolab.com/?font=Press+Start+2P&size=25&color=FFFFFF&center=true&vCenter=true&width=400&height=40&lines=GITHUB+STATS" />
+  <br> 
+  <img src="https://readme-typing-svg.demolab.com/?font=Press+Start+2P&size=25&color=FFFFFF&center=true&vCenter=true&width=400&height=40&lines=GITHUB+STATS" />
+  <br/>
 
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=Caiffeine&theme=blue_navy&hide_border=false&include_all_commits=false&count_private=false" />
-    <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api?username=Caiffeine&theme=prussian&hide_border=false&include_all_commits=false&count_private=false" />
-    <img alt="Caiffeine's GitHub Stats" src="https://github-readme-stats.vercel.app/api?username=Caiffeine&theme=prussian&hide_border=false&include_all_commits=false&count_private=false" />
-  </picture>
+  <img alt="Caiffeine's GitHub Stats" src="https://github-readme-stats.shion.dev/api?username=Caiffeine&theme=shadow_blue&hide_border=false&include_all_commits=false&count_private=false" />
   <br/>
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://nirzak-streak-stats.vercel.app/?user=Caiffeine&theme=blue_navy&hide_border=false" />
-    <source media="(prefers-color-scheme: light)" srcset="https://nirzak-streak-stats.vercel.app/?user=Caiffeine&theme=prussian&hide_border=false" />
-    <img alt="Caiffeine's GitHub Streak" src="https://nirzak-streak-stats.vercel.app/?user=Caiffeine&theme=prussian&hide_border=false" />
-  </picture>
+  <img alt="Caiffeine's GitHub Streak" src="https://streak-stats.demolab.com/?user=Caiffeine&theme=shadow_blue&hide_border=false" />
   <br/>
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=Caiffeine&theme=blue_navy&hide_border=false&include_all_commits=false&count_private=false&layout=compact" />
-    <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=Caiffeine&theme=prussian&hide_border=false&include_all_commits=false&count_private=false&layout=compact" />
-    <img alt="Caiffeine's Top Languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Caiffeine&theme=prussian&hide_border=false&include_all_commits=false&count_private=false&layout=compact" />
-  </picture>
-  
+  <img alt="Caiffeine's Top Languages" src="https://github-readme-stats.shion.dev/api/top-langs/?username=Caiffeine&theme=shadow_blue&hide_border=false&include_all_commits=false&count_private=false&layout=compact" />
+
 </div>
 
 ---
 
 <div align="center">
-  <br/><br/> <img src="https://readme-typing-svg.demolab.com/?font=Press+Start+2P&size=25&color=FFFFFF&center=true&vCenter=true&width=400&height=40&lines=SUPPORT" />
-  <br> <a href="https://buymeacoffee.com/caiffeine">
+  <br/><br/> 
+  <img src="https://readme-typing-svg.demolab.com/?font=Press+Start+2P&size=25&color=FFFFFF&center=true&vCenter=true&width=400&height=40&lines=SUPPORT" />
+  <br> 
+  <a href="https://buymeacoffee.com/caiffeine">
     <img width="300" height="75" alt="Buy Me a Coffee" src="https://github.com/user-attachments/assets/b2ebc97a-1e75-4a58-a2ae-8ea1b3a7e1d4" />
   </a>
 </div>
